@@ -1,0 +1,52 @@
+.order-view-section {
+    h3 {
+        font-weight: bold !important;
+        text-decoration: underline $primary;
+    }
+    a {
+        color: #000 !important;
+        text-decoration: underline $primary !important;
+        &:hover {
+            color: $primary-darker;
+        }
+    }
+}
+
+.svg-link {
+    margin-left: 5px;
+    width: 16px;
+}
+
+.order-thankyou-page {
+    align-items: center !important;
+    text-align: center !important;
+
+    border: solid 1.5px;
+    border-radius: 5px;
+    border-color: $primary;
+
+    padding: 10px;
+    margin: 20px;
+
+    img {
+        margin: auto !important;
+        width: 100px;
+        margin-top: -20px;
+    }
+
+    div {
+        margin-top: -10px;
+        p {
+            color: #000 !important;
+            text-decoration: underline $primary;
+        }
+        a {
+            color: $text-color-sec !important;
+            &:hover {
+                color: $primary-darker !important;
+            }
+        }
+    }
+}
+
+@import "./thankyou-pix";

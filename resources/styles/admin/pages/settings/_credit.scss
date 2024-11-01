@@ -1,0 +1,32 @@
+
+
+.koin-installments-container-context {
+	display: grid;
+    grid-template-columns: 160px 160px;
+
+	.koin-installments-container-fields {
+		display: flex;
+		padding: 3px 0;
+
+		span {
+			width: 20px;
+		}
+
+		input {
+			height: 25px !important;
+			width: 100px !important;
+			text-align: right;
+		}
+
+		input::-webkit-outer-spin-button,
+		input::-webkit-inner-spin-button {
+			-webkit-appearance: none;
+			margin: 0;
+		}
+
+		input[type=number] {
+			-moz-appearance: textfield;
+		}
+	}
+
+}

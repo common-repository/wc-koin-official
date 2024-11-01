@@ -1,0 +1,100 @@
+@import "./../../base/vars";
+
+.wrap-koin {
+
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px;
+
+    h2 {
+        margin-top: 30px;
+        text-decoration: underline $primary;
+    }
+
+    img {
+        width: 80px;
+        margin-bottom: -5px;
+    }
+
+    .description {
+        a {
+            color: #000;
+            text-decoration: underline $primary;
+
+            &:hover {
+                color: $primary;
+            }
+        }
+
+        i {
+            margin-left: 5px !important;
+        }
+    }
+
+    .woocommerce-help-tip {
+        color: $primary;
+    }
+
+    .nav-tab {
+        border-radius: 5px 5px 0 0;
+        background: transparent;
+    }
+}
+
+.top-disable {
+    display: none;
+}
+
+.warning {
+    i {
+        color: $warning;
+    }
+}
+
+.webhook {
+    border: solid 1.9px;
+    border-radius: 5px;
+    border-color: $primary-dark;
+    background-color: #fff;
+
+    height: 60px;
+    width: 70%;
+    padding: 15px 20px 15px 20px;
+
+    .regular-input {
+        width: 90% !important;
+        border: none;
+        background-color: #e6ffe6;
+        outline: none;
+        font-size: 13px;
+        font-style: italic;
+        padding-left: 15px !important;
+    }
+
+    .fas {
+        position: relative;
+        bottom: 67px;
+        right: 30px;
+        font-size: 14px;
+        float: right;
+        color: #4d4d4d;
+        background-color: transparent;
+        padding: 7px;
+        border-radius: 5px;
+        border: solid 1px;
+        border-color: $primary;
+
+        &:hover {
+            transition: .3s;
+            color: #fff;
+            background-color: #4d4d4d;
+            cursor: pointer;
+        }
+    }
+
+    .description {
+        color: #000;
+        text-decoration: underline $primary;
+        margin-top: 10px;
+    }
+}

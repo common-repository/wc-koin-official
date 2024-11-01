@@ -1,0 +1,29 @@
+{
+    "name": "apiki/wc-koin-official",
+    "description": "Koin Official Payments for Woocommerce",
+    "type": "wordpress-plugin",
+    "version": "1.3.4",
+    "license": "GPL-3.0",
+    "require": {
+        "php": ">=7.1.3"
+    },
+    "authors": [
+        {
+            "name": "Apiki WordPress",
+            "email": "wpcare@apiki.com",
+            "homepage": "https://www.apiki.com/",
+            "role": "Software Company"
+        },
+        {
+            "name": "Matheus Aguiar",
+            "email": "aguiartgv@gmail.com",
+            "homepage": "https://www.github.com/aguiarrdev",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "WKO\\": "app/"
+        }
+    }
+}

@@ -1,0 +1,829 @@
+# Copyright (C) 2024 Apiki WordPress
+# This file is distributed under the GPLv3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Koin Official Payments 1.2.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wc-koin-official\n"
+"POT-Creation-Date: 2024-04-01 19:05:30+00:00\n"
+"PO-Revision-Date: 2024-09-04 15:08-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#: app/Controllers/Actions/CancellOrder.php:57
+msgid "KOIN CANCELLATION SUCCESS"
+msgstr "CANCELACIÓN KOIN EXITOSA"
+
+#: app/Controllers/Actions/CancellOrder.php:61 app/Controllers/Actions/CancellOrder.php:67
+msgid "The cancellation work successfully."
+msgstr "La cancelación se realizó con éxito."
+
+#: app/Controllers/Actions/CancellOrder.php:72 app/Controllers/Actions/CancellOrder.php:87
+#: app/Controllers/Actions/CancellOrder.php:103
+msgid "KOIN CANCELLATION ERROR"
+msgstr "ERROR DE CANCELACIÓN DE KOIN"
+
+#: app/Controllers/Actions/CancellOrder.php:75 app/Controllers/Actions/CancellOrder.php:91
+msgid "Cancellation failed. Unable to find the order on Koin."
+msgstr "La cancelación falló. No se pudo encontrar el pedido en Koin."
+
+#: app/Controllers/Actions/CancellOrder.php:81 app/Controllers/Actions/CancellOrder.php:97
+#: app/Controllers/Actions/CancellOrder.php:106 app/Controllers/Actions/CancellOrder.php:112
+msgid "Cancellation doesn't work properly!"
+msgstr "¡La cancelación no funciona correctamente!"
+
+#: app/Controllers/Actions/SyncOrder.php:74 app/Controllers/Actions/SyncOrder.php:80
+#: app/Controllers/Actions/SyncOrder.php:145
+msgid "Synchronization failed. Unable to find the order on Koin."
+msgstr "La sincronización falló. No se pudo encontrar el pedido en Koin."
+
+#: app/Controllers/Actions/SyncOrder.php:77 app/Controllers/Actions/SyncOrder.php:102
+msgid "KOIN SYNC SUCCESS"
+msgstr "SINCRONIZACIÓN KOIN EXITOSA"
+
+#: app/Controllers/Actions/SyncOrder.php:98
+msgid "Status changed automatically by Koin after sync."
+msgstr "Estado cambiado automáticamente por Koin después de la sincronización."
+
+#: app/Controllers/Actions/SyncOrder.php:106
+msgid "The sync work successfully updated."
+msgstr "La sincronización se actualizó con éxito."
+
+#: app/Controllers/Actions/SyncOrder.php:113
+msgid "The order has been successfully updated."
+msgstr "El pedido se ha actualizado con éxito."
+
+#: app/Controllers/Actions/SyncOrder.php:120 app/Controllers/Actions/SyncOrder.php:133
+msgid "KOIN SYNC ERROR"
+msgstr "ERROR DE SINCRONIZACIÓN DE KOIN"
+
+#: app/Controllers/Actions/SyncOrder.php:124 app/Controllers/Actions/SyncOrder.php:137
+msgid "Sync doesn't work properly!"
+msgstr "¡La sincronización no funciona correctamente!"
+
+#: app/Controllers/Gateways/Billet.php:26
+msgid "Koin - Payment in installments"
+msgstr "Koin - Pago en cuotas"
+
+#: app/Controllers/Gateways/Billet.php:28
+msgid "Pay in installments by ticket slip at Koin!"
+msgstr "¡Paga en cuotas mediante boleto en Koin!"
+
+#: app/Controllers/Gateways/Billet.php:30 app/Controllers/Gateways/Credit.php:30
+#: app/Controllers/Gateways/Pix.php:28
+msgid "Create your koin account."
+msgstr "Crea tu cuenta en Koin."
+
+#: app/Controllers/Gateways/Billet.php:64 app/Controllers/Gateways/Credit.php:67
+#: app/Controllers/Gateways/Pix.php:63
+msgid "Enable"
+msgstr "Habilitar"
+
+#: app/Controllers/Gateways/Billet.php:65
+msgid "Enable payment in installments by ticket"
+msgstr "Habilitar el pago en cuotas mediante boleto"
+
+#: app/Controllers/Gateways/Billet.php:67 app/Controllers/Gateways/Credit.php:70
+#: app/Controllers/Gateways/Pix.php:66
+msgid "Check this option to activate the Koin payment method"
+msgstr "Marque esta opción para activar el método de pago de Koin"
+
+#: app/Controllers/Gateways/Billet.php:73 app/Controllers/Gateways/Credit.php:76
+#: app/Controllers/Gateways/Pix.php:72
+msgid "Title"
+msgstr "Título"
+
+#: app/Controllers/Gateways/Billet.php:75 app/Controllers/Gateways/Credit.php:78
+#: app/Controllers/Gateways/Pix.php:74
+msgid "This controls the title which the user sees during checkout."
+msgstr "Esto controla el título que el usuario ve durante el pago."
+
+#: app/Controllers/Gateways/Billet.php:76
+msgid "Koin - Ticket Slip"
+msgstr "Koin - Boleto"
+
+#: app/Controllers/Gateways/Billet.php:81 app/Controllers/Gateways/Credit.php:84
+#: app/Controllers/Gateways/Pix.php:80
+msgid "Description"
+msgstr "Descripción"
+
+#: app/Controllers/Gateways/Billet.php:83 app/Controllers/Gateways/Credit.php:86
+#: app/Controllers/Gateways/Pix.php:82
+msgid "This controls the description which the user sees during checkout."
+msgstr "Esto controla la descripción que el usuario ve durante el pago."
+
+#: app/Controllers/Gateways/Billet.php:84
+msgid "Ticket payments by installments"
+msgstr "Pagos de boletos en cuotas"
+
+#: app/Controllers/Gateways/Billet.php:90 app/Controllers/Gateways/Pix.php:103
+msgid "Discount Type"
+msgstr "Tipo de Descuento"
+
+#: app/Controllers/Gateways/Billet.php:92 app/Controllers/Gateways/Credit.php:102
+#: app/Controllers/Gateways/Pix.php:105
+msgid ""
+"In this option you can define whether the discount will be calculated by percentage (%) or by a fixed amount."
+msgstr "En esta opción, puede definir si el descuento se calculará por porcentaje (%) o por un monto fijo."
+
+#: app/Controllers/Gateways/Billet.php:96 app/Controllers/Gateways/Credit.php:106
+#: app/Controllers/Gateways/Credit.php:130 app/Controllers/Gateways/Pix.php:109
+msgid "Disabled"
+msgstr "Deshabilitado"
+
+#: app/Controllers/Gateways/Billet.php:97 app/Controllers/Gateways/Credit.php:107
+#: app/Controllers/Gateways/Credit.php:144 app/Controllers/Gateways/Pix.php:110
+msgid "Percentage (%)"
+msgstr "Porcentaje (%)"
+
+#: app/Controllers/Gateways/Billet.php:98 app/Controllers/Gateways/Credit.php:108
+#: app/Controllers/Gateways/Credit.php:145 app/Controllers/Gateways/Pix.php:111
+msgid "Fixed value (R$)"
+msgstr "Valor fijo (R$)"
+
+#: app/Controllers/Gateways/Billet.php:104 app/Controllers/Gateways/Pix.php:117
+msgid "Discount Value"
+msgstr "Valor de Descuento"
+
+#: app/Controllers/Gateways/Billet.php:107 app/Controllers/Gateways/Credit.php:117
+#: app/Controllers/Gateways/Pix.php:120
+msgid "In this option you can define the discount amount."
+msgstr "En esta opción, puede definir el monto del descuento."
+
+#: app/Controllers/Gateways/Billet.php:133 app/Controllers/Gateways/Credit.php:214
+#: app/Controllers/Gateways/Pix.php:147
+msgid " Test mode activate! In this mode transactions are not real."
+msgstr "¡Modo de prueba activado! En este modo, las transacciones no son reales."
+
+#: app/Controllers/Gateways/Billet.php:202
+msgid "Koin payment link:"
+msgstr "Enlace de pago de Koin:"
+
+#: app/Controllers/Gateways/Blocks/AbstractBlockGateway.php:62
+msgid "Modo sandbox ativado! As transações realizadas nesse modo não são reais."
+msgstr "¡Modo sandbox activado! Las transacciones realizadas en este modo no son reales."
+
+#: app/Controllers/Gateways/Credit.php:26
+msgid "Koin - Pay with Credit Card"
+msgstr "Koin - Pagar con Tarjeta de Crédito"
+
+#: app/Controllers/Gateways/Credit.php:28
+msgid "Pay in using credit card  payment method!"
+msgstr "¡Paga utilizando el método de pago con tarjeta de crédito!"
+
+#: app/Controllers/Gateways/Credit.php:68
+msgid "Enable payment with Credit Card"
+msgstr "Habilitar el pago con Tarjeta de Crédito"
+
+#: app/Controllers/Gateways/Credit.php:79
+msgid "Credit Card"
+msgstr "Tarjeta de Crédito"
+
+#: app/Controllers/Gateways/Credit.php:87
+msgid "Pay using Credit Card payment method!"
+msgstr "¡Paga utilizando el método de pago con Tarjeta de Crédito!"
+
+#: app/Controllers/Gateways/Credit.php:92
+msgid "Installments quantity"
+msgstr "Cantidad de cuotas"
+
+#: app/Controllers/Gateways/Credit.php:94
+msgid "This controls the quantity of installments for credit card."
+msgstr "Esto controla la cantidad de cuotas para la tarjeta de crédito."
+
+#: app/Controllers/Gateways/Credit.php:100
+msgid "Discount type"
+msgstr "Tipo de descuento"
+
+#: app/Controllers/Gateways/Credit.php:114
+msgid "Discount value"
+msgstr "Valor de descuento"
+
+#: app/Controllers/Gateways/Credit.php:124
+msgid "Rate transfer type"
+msgstr "Tipo de transferencia de tasa"
+
+#: app/Controllers/Gateways/Credit.php:126
+msgid "Select the credit card interest charging type (simples or By installment)"
+msgstr "Seleccione el tipo de cobro de intereses de la tarjeta de crédito (simple o por cuota)"
+
+#: app/Controllers/Gateways/Credit.php:131
+msgid "Simple"
+msgstr "Simple"
+
+#: app/Controllers/Gateways/Credit.php:132
+msgid "By installment"
+msgstr "Por cuota"
+
+#: app/Controllers/Gateways/Credit.php:138
+msgid "Rate transfer format"
+msgstr "Formato de transferencia de tasa"
+
+#: app/Controllers/Gateways/Credit.php:140
+msgid "Select the credit card interest charging format (percentage or fixed rate)"
+msgstr "Seleccione el formato de cobro de intereses de la tarjeta de crédito (porcentaje o tasa fija)"
+
+#: app/Controllers/Gateways/Credit.php:151
+msgid "Rate value"
+msgstr "Valor de la tasa"
+
+#: app/Controllers/Gateways/Credit.php:154
+msgid "In this option you can define the rate value."
+msgstr "En esta opción, puede definir el valor de la tasa."
+
+#: app/Controllers/Gateways/Credit.php:161
+msgid "Installment view"
+msgstr "Vista de cuotas"
+
+#: app/Controllers/Gateways/Credit.php:163
+msgid "Define how installments are displayed at checkout."
+msgstr "Defina cómo se muestran las cuotas en el pago."
+
+#: app/Controllers/Gateways/Credit.php:166
+msgid "12 x R$10,00"
+msgstr "12 x R$10,00"
+
+#: app/Controllers/Gateways/Credit.php:167
+msgid "12 x R$10,00 - Sem juros"
+msgstr "12 x R$10,00 - Sin intereses"
+
+#: app/Controllers/Gateways/Credit.php:168
+msgid "12 x R$10,00 (R$120,00)"
+msgstr "12 x R$10,00 (R$120,00)"
+
+#: app/Controllers/Gateways/Credit.php:169
+msgid "12 x R$10,00 (R$120,00) - Sem juros"
+msgstr "12 x R$10,00 (R$120,00) - Sin intereses"
+
+#: app/Controllers/Gateways/Credit.php:174
+msgid "Rate value by installment"
+msgstr "Valor de la tasa por cuota"
+
+#: app/Controllers/Gateways/Credit.php:177
+msgid "In this option you can define the fee amount for each installment."
+msgstr "En esta opción, puede definir el monto de la tarifa por cada cuota."
+
+#: app/Controllers/Gateways/Credit.php:237
+msgid "Unable to get customer session!"
+msgstr "¡No se puede obtener la sesión del cliente!"
+
+#: app/Controllers/Gateways/Credit.php:241
+msgid "Unable to identify credit card brand!"
+msgstr "¡No se puede identificar la marca de la tarjeta de crédito!"
+
+#: app/Controllers/Gateways/Credit.php:267 app/Views/templates/checkout/credit.php:15
+msgid "Card Owner"
+msgstr "Titular de la tarjeta"
+
+#: app/Controllers/Gateways/Credit.php:268 app/Views/templates/checkout/credit.php:19
+msgid "Card Number"
+msgstr "Número de tarjeta"
+
+#: app/Controllers/Gateways/Credit.php:269 app/Controllers/Gateways/Credit.php:270
+#: app/Views/templates/checkout/credit.php:27
+msgid "Expiry Date"
+msgstr "Fecha de vencimiento"
+
+#: app/Controllers/Gateways/Credit.php:271 app/Views/templates/checkout/credit.php:31
+msgid "Card Code"
+msgstr "Código de la tarjeta"
+
+#: app/Controllers/Gateways/Credit.php:272
+msgid "Card Installments"
+msgstr "Cuotas de la tarjeta"
+
+#: app/Controllers/Gateways/Credit.php:273
+msgid "Card Brand"
+msgstr "Marca de la tarjeta"
+
+#: app/Controllers/Gateways/Credit.php:403 app/Controllers/Gateways/Gateway.php:543
+msgid "Invalid address fields! Please check that the fields are filled in correctly."
+msgstr "¡Campos de dirección inválidos! Por favor, verifique que los campos estén completados correctamente."
+
+#: app/Controllers/Gateways/Credit.php:443
+msgid "Credit Card Interest"
+msgstr "Interés de la Tarjeta de Crédito"
+
+#: app/Controllers/Gateways/Gateway.php:55
+msgid "- Response body invalid:"
+msgstr "- Cuerpo de respuesta inválido:"
+
+#: app/Controllers/Gateways/Gateway.php:60 app/Controllers/Gateways/Gateway.php:148
+msgid "An unknown error has occurred. Please, contact Us."
+msgstr "Ha ocurrido un error desconocido. Por favor, contáctenos."
+
+#: app/Controllers/Gateways/Gateway.php:87
+msgid "Waiting for credit confirmation from Koin."
+msgstr "Esperando confirmación de crédito de Koin."
+
+#: app/Controllers/Gateways/Gateway.php:94
+msgid "Test mode activate! In this mode transactions are not real."
+msgstr "¡Modo de prueba activado! En este modo, las transacciones no son reales."
+
+#: app/Controllers/Gateways/Gateway.php:107
+msgid "Order created:"
+msgstr "Pedido creado:"
+
+#: app/Controllers/Gateways/Gateway.php:125
+msgid "Invalid order status:"
+msgstr "Estado de pedido inválido:"
+
+#: app/Controllers/Gateways/Gateway.php:139
+msgid "No body found:"
+msgstr "No se encontró el cuerpo:"
+
+#: app/Controllers/Gateways/Gateway.php:159
+msgid "Payment rejected! The transaction was declined due to a processing error. Please, contact us."
+msgstr "¡Pago rechazado! La transacción fue rechazada debido a un error de procesamiento. Por favor, contáctenos."
+
+#: app/Controllers/Gateways/Gateway.php:162
+msgid "Payment rejected! Invalid credit card details. Please, try again."
+msgstr "¡Pago rechazado! Detalles de tarjeta de crédito inválidos. Por favor, intente nuevamente."
+
+#: app/Controllers/Gateways/Gateway.php:165
+msgid "Payment rejected! It was not possible to make the payment."
+msgstr "¡Pago rechazado! No fue posible realizar el pago."
+
+#: app/Controllers/Gateways/Gateway.php:194 app/Controllers/Webhooks/Order.php:116
+msgid "Order captured:"
+msgstr "Pedido capturado:"
+
+#: app/Controllers/Gateways/Gateway.php:226
+msgid "It was not possible to make the payment. Payment rejected!"
+msgstr "No fue posible realizar el pago. ¡Pago rechazado!"
+
+#: app/Controllers/Gateways/Gateway.php:807
+msgid "Payment method discount"
+msgstr "Descuento por método de pago"
+
+#: app/Controllers/Gateways/Pix.php:24
+msgid "Koin - Pay with PIX"
+msgstr "Koin - Pagar con PIX"
+
+#: app/Controllers/Gateways/Pix.php:26
+msgid "Pay in using PIX payment method!"
+msgstr "¡Pague usando el método de pago PIX!"
+
+#: app/Controllers/Gateways/Pix.php:64
+msgid "Enable payment with PIX"
+msgstr "Habilitar pago con PIX"
+
+#: app/Controllers/Gateways/Pix.php:75
+msgid "Pix"
+msgstr "Pix"
+
+#: app/Controllers/Gateways/Pix.php:83
+msgid "Pay using PIX payment method!"
+msgstr "¡Pague usando el método de pago PIX!"
+
+#: app/Controllers/Gateways/Pix.php:88
+msgid "Expiration time"
+msgstr "Tiempo de expiración"
+
+#: app/Controllers/Gateways/Pix.php:91
+msgid "1 Hour"
+msgstr "1 Hora"
+
+#: app/Controllers/Gateways/Pix.php:92
+msgid "2 Hours"
+msgstr "2 Horas"
+
+#: app/Controllers/Gateways/Pix.php:93
+msgid "5 Hours"
+msgstr "5 Horas"
+
+#: app/Controllers/Gateways/Pix.php:94
+msgid "10 Hours"
+msgstr "10 Horas"
+
+#: app/Controllers/Gateways/Pix.php:95
+msgid "24 Hours"
+msgstr "24 Horas"
+
+#: app/Controllers/Gateways/Pix.php:97
+msgid "This controls the expiration time for pix QR Code."
+msgstr "Esto controla el tiempo de expiración del código QR de Pix."
+
+#: app/Controllers/Gateways/Pix.php:228
+msgid "Koin pix line:"
+msgstr "Línea de Pix de Koin:"
+
+#: app/Controllers/Koin.php:43 app/Controllers/Koin.php:123
+msgid "Could not fetch order_id from database."
+msgstr "No se pudo obtener el order_id de la base de datos."
+
+#: app/Controllers/Koin.php:53 app/Controllers/Koin.php:79
+msgid "Error when making the request"
+msgstr "Error al realizar la solicitud"
+
+#: app/Controllers/Orders/KoinOrders.php:90 app/Controllers/Orders/KoinOrders.php:107
+msgid "Koin Payments"
+msgstr "Pagos Koin"
+
+#: app/Controllers/Orders/KoinOrders.php:138
+msgid "Order"
+msgstr "Pedido"
+
+#: app/Controllers/Orders/KoinOrders.php:139
+msgid "Status"
+msgstr "Estado"
+
+#: app/Controllers/Orders/KoinOrders.php:140
+msgid "Date"
+msgstr "Fecha"
+
+#: app/Controllers/Orders/KoinOrders.php:141 app/Views/templates/checkout/credit.php:39
+msgid "Installments"
+msgstr "Cuotas"
+
+#: app/Controllers/Orders/KoinOrders.php:142
+msgid "Total"
+msgstr "Total"
+
+#: app/Controllers/Orders/KoinOrders.php:143
+msgid "Details"
+msgstr "Detalles"
+
+#: app/Controllers/Orders/KoinOrders.php:163 app/Controllers/Render/EditOrders.php:48
+#: app/Controllers/Render/ViewOrders.php:37
+msgid "Undefined"
+msgstr "Indefinido"
+
+#: app/Controllers/PersonType.php:38
+msgid "O campo 'Tipo de Pessoa' é obrigatório!"
+msgstr "¡El campo 'Tipo de Persona' es obligatorio!"
+
+#: app/Controllers/PersonType.php:49
+msgid "O campo 'CPF' é obrigatório!"
+msgstr "¡El campo 'CPF' es obligatorio!"
+
+#: app/Controllers/PersonType.php:57
+msgid "O campo 'CNPJ' é obrigatório!"
+msgstr "¡El campo 'CNPJ' es obligatorio!"
+
+#: app/Controllers/PersonType.php:133
+msgid "Tipo de Pessoa"
+msgstr "Tipo de Persona"
+
+#: app/Controllers/PersonType.php:138
+msgid "CPF"
+msgstr "CPF"
+
+#: app/Controllers/PersonType.php:143
+msgid "CNPJ"
+msgstr "CNPJ"
+
+#: app/Controllers/Render/CreditCheckout.php:51
+msgid "Sem juros"
+msgstr "Sin intereses"
+
+#: app/Controllers/Render/CreditCheckout.php:54
+msgid "Com juros"
+msgstr "Con intereses"
+
+#: app/Controllers/Render/EditOrders.php:38 app/Controllers/Render/ViewOrders.php:33
+msgid "Waiting for Koin's reply"
+msgstr "Esperando la respuesta de Koin"
+
+#: app/Controllers/Settings.php:75
+msgid "Suporte"
+msgstr "Soporte"
+
+#: app/Controllers/Settings.php:90
+msgid "Koin"
+msgstr "Koin"
+
+#: app/Controllers/Settings.php:116 app/Helpers/Functions.php:117
+msgid "Koin Settings"
+msgstr "Configuración de Koin"
+
+#: app/Controllers/Settings.php:122
+msgid "Environment"
+msgstr "Entorno"
+
+#: app/Controllers/Settings.php:124
+msgid "Select the environment, homologation or production."
+msgstr "Seleccione el entorno, homologación o producción."
+
+#: app/Controllers/Settings.php:127
+msgid "Sandbox"
+msgstr "Sandbox"
+
+#: app/Controllers/Settings.php:128
+msgid "Production"
+msgstr "Producción"
+
+#: app/Controllers/Settings.php:132
+msgid "Store Code"
+msgstr "Código de la tienda"
+
+#: app/Controllers/Settings.php:134
+msgid "Enter your store code."
+msgstr "Ingrese su código de tienda."
+
+#: app/Controllers/Settings.php:138
+msgid "Store Account"
+msgstr "Cuenta de la tienda"
+
+#: app/Controllers/Settings.php:140
+msgid "Enter your store account."
+msgstr "Ingrese su cuenta de tienda."
+
+#: app/Controllers/Settings.php:144
+msgid "Secret Key"
+msgstr "Clave secreta"
+
+#: app/Controllers/Settings.php:146
+msgid "Enter your secret key."
+msgstr "Ingrese su clave secreta."
+
+#: app/Controllers/Settings.php:150
+msgid "Organization ID"
+msgstr "ID de la organización"
+
+#: app/Controllers/Settings.php:152 app/Controllers/Settings.php:176
+msgid "Enter your organization."
+msgstr "Ingrese su organización."
+
+#: app/Controllers/Settings.php:156
+msgid "Test Store Code"
+msgstr "Código de tienda de prueba"
+
+#: app/Controllers/Settings.php:158
+msgid "Enter your test store code."
+msgstr "Ingrese su código de tienda de prueba."
+
+#: app/Controllers/Settings.php:162
+msgid "Test Store Account"
+msgstr "Cuenta de tienda de prueba"
+
+#: app/Controllers/Settings.php:164
+msgid "Enter your test store account."
+msgstr "Ingrese su cuenta de tienda de prueba."
+
+#: app/Controllers/Settings.php:168
+msgid "Test Secret Key"
+msgstr "Clave secreta de prueba"
+
+#: app/Controllers/Settings.php:170
+msgid "Enter your test secret key."
+msgstr "Ingrese su clave secreta de prueba."
+
+#: app/Controllers/Settings.php:174
+msgid "Test Organization ID"
+msgstr "ID de organización de prueba"
+
+#: app/Controllers/Settings.php:180
+msgid "Success status for orders"
+msgstr "Estado de éxito para pedidos"
+
+#: app/Controllers/Settings.php:184
+msgid "Processing"
+msgstr "Procesando"
+
+#: app/Controllers/Settings.php:185
+msgid "Completed"
+msgstr "Completado"
+
+#: app/Controllers/Settings.php:187
+msgid "This field defines what status the order must have after being successfully completed."
+msgstr "Este campo define el estado que debe tener el pedido después de completarse con éxito."
+
+#: app/Controllers/Settings.php:191
+msgid "Enable Woocommerce Logs for Koin."
+msgstr "Habilitar registros de Woocommerce para Koin."
+
+#: app/Controllers/Settings.php:196
+msgid "To View the logs click the link: "
+msgstr "Para ver los registros haga clic en el enlace:"
+
+#: app/Controllers/Settings.php:201
+msgid "My Account"
+msgstr "Mi Cuenta"
+
+#: app/Controllers/Settings.php:202
+msgid "Enable Koin menu on my account page."
+msgstr "Habilitar el menú de Koin en la página de mi cuenta."
+
+#: app/Controllers/Settings.php:205
+msgid "Create a menus on Woocommerce my account page."
+msgstr "Crear un menú en la página de mi cuenta de Woocommerce."
+
+#: app/Controllers/Settings.php:209
+msgid "Sync orders option"
+msgstr "Opción de sincronización de pedidos"
+
+#: app/Controllers/Settings.php:210
+msgid "Enable manual order synchronization option."
+msgstr "Habilitar opción de sincronización manual de pedidos."
+
+#: app/Controllers/Settings.php:215
+msgid " Waring! "
+msgstr " ¡Advertencia! "
+
+#: app/Controllers/Settings.php:216
+msgid ""
+"Activating this option you will have access to a manual status synchronization option within the order pages. "
+"Only enable this option if you know what you are doing."
+msgstr ""
+"Al activar esta opción tendrás acceso a una opción de sincronización manual del estado dentro de las páginas de "
+"pedidos. Solo habilita esta opción si sabes lo que estás haciendo."
+
+#: app/Controllers/Status.php:32
+msgid "Awaiting payment"
+msgstr "Esperando pago"
+
+#: app/Controllers/Status.php:33
+msgid "Under analysist"
+msgstr "En análisis"
+
+#: app/Controllers/Webhooks/Order.php:78
+msgid "Notification received successfully:"
+msgstr "Notificación recibida con éxito:"
+
+#: app/Controllers/Webhooks/Order.php:85
+msgid "Notification status invalid:"
+msgstr "Estado de notificación inválido:"
+
+#: app/Controllers/Webhooks/Order.php:154
+msgid "Order completed successfully!"
+msgstr "¡Pedido completado con éxito!"
+
+#: app/Controllers/Webhooks/Order.php:159
+msgid "Waiting for first payment."
+msgstr "Esperando el primer pago."
+
+#: app/Controllers/Webhooks/Order.php:164 app/Controllers/Webhooks/Order.php:169
+msgid "Awaiting credit analysis by Koin."
+msgstr "Esperando el análisis de crédito por parte de Koin."
+
+#: app/Controllers/Webhooks/Order.php:174
+msgid "Order cancelled successfully!"
+msgstr "¡Pedido cancelado con éxito!"
+
+#: app/Controllers/Webhooks/Order.php:179
+msgid "Order Published!"
+msgstr "¡Pedido publicado!"
+
+#: app/Controllers/Webhooks/Order.php:184
+msgid "Order Opened!"
+msgstr "¡Pedido abierto!"
+
+#: app/Controllers/Webhooks/Order.php:189
+msgid "Order failed!"
+msgstr "¡Pedido fallido!"
+
+#: app/Controllers/Webhooks/Order.php:198
+msgid "Status changed automatically by Koin"
+msgstr "Estado cambiado automáticamente por Koin"
+
+#: app/Controllers/Webhooks/Order.php:229
+msgid "It was not possible to identify the "
+msgstr "No fue posible identificar el "
+
+#: app/Controllers/Webhooks/Order.php:231
+msgid " field in the received notification."
+msgstr " campo en la notificación recibida."
+
+#: app/Controllers/Webhooks/Order.php:271
+msgid "Woocomerce orde not found:"
+msgstr "Pedido de WooCommerce no encontrado:"
+
+#: app/Helpers/Functions.php:92
+msgid "The plugin depends on WooCommerce to work!"
+msgstr "¡El plugin depende de WooCommerce para funcionar!"
+
+#: app/Helpers/Functions.php:116
+msgid "Settings for Koin Official Payments"
+msgstr "Configuración para Pagos Oficiales de Koin"
+
+#: app/Helpers/Functions.php:155
+msgid ""
+"Essa versão utiliza um novo mecanismo de autenticação! Caso não consiga se autenticar entre em contato conosco"
+msgstr ""
+"¡Esta versión utiliza un nuevo mecanismo de autenticación! Si no puedes autenticarte, contacta con nosotros"
+
+#: app/Helpers/Functions.php:156
+msgid "neste link"
+msgstr "en este enlace"
+
+#: app/Views/orders.php:14 app/Views/templates/myaccount/order-details.php:12
+msgid "Payment method: "
+msgstr "Método de pago: "
+
+#: app/Views/orders.php:19
+msgid "Installments: "
+msgstr "Cuotas: "
+
+#: app/Views/orders.php:24
+msgid "Koin Order ID: "
+msgstr "ID del pedido Koin: "
+
+#: app/Views/orders.php:29
+msgid "Koin Payment Link: "
+msgstr "Enlace de pago Koin: "
+
+#: app/Views/orders.php:35
+msgid "Sync Koin order"
+msgstr "Sincronizar pedido Koin"
+
+#: app/Views/templates/checkout/billet.php:9
+msgid "How does work"
+msgstr "¿Cómo funciona?"
+
+#: app/Views/templates/checkout/billet.php:10
+msgid "Koin's payment in installments?"
+msgstr "¿Pago en cuotas con Koin?"
+
+#: app/Views/templates/checkout/billet.php:11
+msgid "click here"
+msgstr "haz clic aquí"
+
+#: app/Views/templates/checkout/credit.php:9
+msgid "Accepted card brands"
+msgstr "Marcas de tarjeta aceptadas"
+
+#: app/Views/templates/checkout/credit.php:28
+msgid "MM/YY"
+msgstr "MM/AA"
+
+#: app/Views/templates/myaccount/koin-orders.php:70
+msgid "Previous"
+msgstr "Anterior"
+
+#: app/Views/templates/myaccount/koin-orders.php:74
+msgid "Next"
+msgstr "Siguiente"
+
+#: app/Views/templates/myaccount/koin-orders.php:81
+msgid "Browse products"
+msgstr "Explorar productos"
+
+#: app/Views/templates/myaccount/koin-orders.php:82
+msgid "No order has been made yet."
+msgstr "Aún no se ha realizado ningún pedido."
+
+#: app/Views/templates/myaccount/order-details.php:16
+msgid "Installments:   "
+msgstr "Cuotas:   "
+
+#: app/Views/templates/myaccount/order-details.php:20
+msgid "Koin order ID:  "
+msgstr "ID del pedido Koin:  "
+
+#: app/Views/templates/myaccount/order-details.php:24
+msgid "Koin payment link:  "
+msgstr "Enlace de pago Koin:  "
+
+#: app/Views/templates/thankyou-page/billet.php:9
+msgid "Access the link below to finalize the payment on the Koin platform."
+msgstr "Accede al enlace a continuación para finalizar el pago en la plataforma Koin."
+
+#: app/Views/templates/thankyou-page/credit.php:4
+msgid "Credit card payment successful!"
+msgstr "¡Pago con tarjeta de crédito exitoso!"
+
+#: app/Views/templates/thankyou-page/pix.php:4
+msgid "Scan the QR Code or copy the typeable line."
+msgstr "Escanea el código QR o copia la línea tipeable."
+
+#: app/Views/templates/thankyou-page/pix.php:17
+msgid "Copy"
+msgstr "Copiar"
+
+#: wc-koin-official.php:22
+msgid "The Koin Official Payments isn't compatible to your PHP version. "
+msgstr "Los Pagos Oficiales de Koin no son compatibles con tu versión de PHP."
+
+#: wc-koin-official.php:23
+msgid "The PHP version has to be a less 7.1!"
+msgstr "¡La versión de PHP debe ser menor a 7.1!"
+
+#. Plugin Name of the plugin/theme
+msgid "Koin Official Payments"
+msgstr "Pagos Oficiales de Koin"
+
+#. Plugin URI of the plugin/theme
+msgid "https://apiki.com/koin"
+msgstr "https://apiki.com/koin"
+
+#. Description of the plugin/theme
+msgid "Koin Official Payments Gateways"
+msgstr "Pasarelas de Pagos Oficiales de Koin"
+
+#. Author of the plugin/theme
+msgid "Apiki WordPress"
+msgstr "Apiki WordPress"
+
+#. Author URI of the plugin/theme
+msgid "https://apiki.com/"
+msgstr "https://apiki.com/"
+
+#: app/Views/templates/myaccount/koin-orders.php:33
+msgctxt "hash before order number"
+msgid "#"
+msgstr "#"

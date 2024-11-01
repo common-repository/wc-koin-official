@@ -1,0 +1,86 @@
+.order-thankyou-page-pix {
+    p {
+        font-size: 18px;
+    }
+    .koin-pix-types {
+        display: grid;
+        grid-template-columns: 2fr .5fr 2fr;
+        margin-bottom: 50px;
+
+        .saparator {
+            span {
+                background-color: #000;
+                height: 200px;
+                width: 1px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+        > div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .koin-pix-line {
+                textarea {
+                    max-width: 220px;
+                    max-height: 150px;
+                    padding: 10px;
+                    background: #fff;
+                    border: solid 1px;
+                    resize: none;
+                    outline: none;
+
+                    &::-webkit-scrollbar {
+                        display: none;
+                    }
+                }
+
+                button {
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    
+                    max-width: 220px;
+                    width: 100%;
+                    top: 20px;
+
+                    background: #fff;
+                    border: solid 1px;
+                    border-radius: 5px;
+                    outline: none;
+
+                    svg {
+                        width: 20px;
+                        margin-left: 5px;
+                    }
+
+                    :hover {
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+        @media (max-width: 930px) {
+            display: grid;
+            grid-template-columns: 1fr;
+
+            .saparator {
+                display: none;
+            }
+
+            > div {
+                .koin-pix-line {
+                    margin-top: 10px;
+                    textarea {
+                        height: 80px !important;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.koin-action {
+
+    &-disabled {
+        opacity: 40%;
+        cursor: default !important;
+        pointer-events: none;
+    }
+
+}
+.woocommerce-orders-table__cell-order-actions {
+    width: 100% !important;
+}

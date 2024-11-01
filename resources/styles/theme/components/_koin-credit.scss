@@ -1,0 +1,26 @@
+.payment_method_wc-koin-credit {
+    .koin-checkout-fields {
+        #wko-card-owner {
+            text-transform: uppercase;
+        }
+
+        select {
+            height: 35px;
+        }
+
+        .wko-card-img {
+            position: relative;
+            img {
+                position: absolute;
+                right: 10px;
+                top: 10px;
+                max-width: 40px !important;
+            }
+
+            input {
+                padding-right: 60px;
+            }
+        }
+    }
+
+}
